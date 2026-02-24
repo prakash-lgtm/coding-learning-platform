@@ -1,0 +1,33 @@
+# Module 2 - Loops
+## Level 2 - Challenge 1
+
+Problem
+Print numbers from 10 to 1.
+
+Instructions
+1. Use a loop.
+2. Start from 10.
+3. Decrease until 1.
+
+Example Output
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+Hint
+Use range(10,0,-1).
+
+Broken Code
+for i in range(10,1):
+    print(i)
+
+Correct Code
+for i in range(10,0,-1):
+    print(i)
