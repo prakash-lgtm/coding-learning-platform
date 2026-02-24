@@ -1,0 +1,32 @@
+# Module 1 - Basics
+## Level 5 - Challenge 3
+
+Problem
+Take radius of a circle from the user and print the area.
+
+Instructions
+1. Ask the user to enter radius.
+2. Use the formula for area of circle.
+3. Print the result.
+
+Formula
+Area = 3.14 * r * r
+
+Example Input
+3
+
+Example Output
+28.26
+
+Hint
+Multiply radius two times with 3.14.
+
+Broken Code
+r = int(input("Enter radius: "))
+area = 3.14 * r
+print(area)
+
+Correct Code
+r = int(input("Enter radius: "))
+area = 3.14 * r * r
+print(area)
