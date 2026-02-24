@@ -1,0 +1,21 @@
+# Module 1 - Basics
+## Level 1 - Challenge 2
+
+Problem
+Print your name on the screen.
+
+Instructions
+1. Write a program to display your name.
+2. Use a print statement.
+
+Expected Output
+Prakash
+
+Hint
+Write your name inside quotes in the print() function.
+
+Broken Code
+print(Prakash)
+
+Correct Code
+print("Prakash")
