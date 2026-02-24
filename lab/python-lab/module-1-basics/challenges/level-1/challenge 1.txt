@@ -1,0 +1,21 @@
+# Module 1 - Basics
+## Level 1 - Challenge 1
+
+Problem
+Print "Hello World" on the screen.
+
+Instructions
+1. Write a program that prints the text Hello World.
+2. The output must match exactly.
+
+Expected Output
+Hello World
+
+Hint
+Use the print() function and write the text inside quotes.
+
+Broken Code
+print Hello World
+
+Correct Code
+print("Hello World")
