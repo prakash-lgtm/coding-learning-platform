@@ -1,0 +1,39 @@
+# Module 2 - Loops
+## Level 3 - Challenge 1
+
+Problem
+Print multiplication table of a number.
+
+Instructions
+1. Take a number from user.
+2. Use a loop from 1 to 10.
+3. Multiply the number with loop variable.
+4. Print result.
+
+Example Input
+5
+
+Example Output
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+
+Hint
+Use a for loop.
+
+Broken Code
+num = int(input("Enter number: "))
+for i in range(1,10):
+print(num * i)
+
+Correct Code
+num = int(input("Enter number: "))
+for i in range(1,11):
+    print(num * i)
