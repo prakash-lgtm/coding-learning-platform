@@ -1,0 +1,28 @@
+# Module 1 - Basics
+## Level 3 - Challenge 1
+
+Problem
+Take a number from the user and print the square of the number.
+
+Instructions
+1. Ask the user to enter a number.
+2. Convert the input to an integer.
+3. Multiply the number by itself.
+4. Print the result.
+
+Example Input
+4
+
+Example Output
+16
+
+Hint
+Square of a number = number * number
+
+Broken Code
+num = int(input("Enter number: "))
+print(num ^ 2)
+
+Correct Code
+num = int(input("Enter number: "))
+print(num * num)
