@@ -1,0 +1,28 @@
+# Module 1 - Basics
+## Level 3 - Challenge 3
+
+Problem
+Take a number from the user and print double of the number.
+
+Instructions
+1. Ask the user to enter a number.
+2. Convert the input to integer.
+3. Multiply the number by 2.
+4. Print the result.
+
+Example Input
+6
+
+Example Output
+12
+
+Hint
+Double of a number = number * 2
+
+Broken Code
+num = input("Enter number: ")
+print(num * 2)
+
+Correct Code
+num = int(input("Enter number: "))
+print(num * 2)
