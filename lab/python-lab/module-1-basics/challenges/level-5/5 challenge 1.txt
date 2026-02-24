@@ -1,0 +1,40 @@
+# Module 1 - Basics
+## Level 5 - Challenge 1
+
+Problem
+Take two numbers from the user and print:
+1. Sum
+2. Difference
+3. Product
+
+Instructions
+1. Ask the user to enter two numbers.
+2. Convert both inputs to integers.
+3. Calculate sum, difference and product.
+4. Print the results.
+
+Example Input
+8
+3
+
+Example Output
+Sum: 11
+Difference: 5
+Product: 24
+
+Hint
+Use + for addition, - for subtraction, and * for multiplication.
+
+Broken Code
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum:", a + b)
+print("Difference:", a + b)
+print("Product:", a + b)
+
+Correct Code
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum:", a + b)
+print("Difference:", a - b)
+print("Product:", a * b)
