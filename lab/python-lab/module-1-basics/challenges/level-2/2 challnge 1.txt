@@ -1,0 +1,27 @@
+# Module 1 - Basics
+## Level 2 - Challenge 1
+
+Problem
+Take a number from the user and print it.
+
+Instructions
+1. Ask the user to enter a number.
+2. Store the value in a variable.
+3. Print the number.
+
+Example Input
+5
+
+Example Output
+5
+
+Hint
+Use the input() function to take input from the user.
+
+Broken Code
+num = input
+print(num)
+
+Correct Code
+num = input("Enter number: ")
+print(num)
