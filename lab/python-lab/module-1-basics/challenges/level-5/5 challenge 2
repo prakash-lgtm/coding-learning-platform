@@ -1,0 +1,33 @@
+# Module 1 - Basics
+## Level 5 - Challenge 2
+
+Problem
+Take your name and age from the user and print a message.
+
+Instructions
+1. Ask the user to enter name.
+2. Ask the user to enter age.
+3. Print a message with both values.
+
+Example Input
+Rahul
+20
+
+Example Output
+Hello Rahul
+You are 20 years old
+
+Hint
+Use input() for both values and print them using print().
+
+Broken Code
+name = input("Enter name: ")
+age = input("Enter age: ")
+print("Hello" name)
+print("You are", age "years old")
+
+Correct Code
+name = input("Enter name: ")
+age = input("Enter age: ")
+print("Hello", name)
+print("You are", age, "years old")
