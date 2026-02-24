@@ -1,0 +1,30 @@
+# Module 1 - Basics
+## Level 2 - Challenge 2
+
+Problem
+Take two numbers from the user and print their sum.
+
+Instructions
+1. Take two numbers from the user.
+2. Convert them into integers.
+3. Print their sum.
+
+Example Input
+4
+3
+
+Example Output
+7
+
+Hint
+Use int(input()) to convert input into numbers.
+
+Broken Code
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+print(a + b)
+
+Correct Code
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(a + b)
