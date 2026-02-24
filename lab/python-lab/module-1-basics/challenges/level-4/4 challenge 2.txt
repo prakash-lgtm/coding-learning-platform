@@ -1,0 +1,33 @@
+# Module 1 - Basics
+## Level 4 - Challenge 2
+
+Problem
+Take length and width of a rectangle and print the area.
+
+Instructions
+1. Ask the user to enter length.
+2. Ask the user to enter width.
+3. Calculate area using the formula.
+4. Print the result.
+
+Example Input
+5
+4
+
+Example Output
+20
+
+Hint
+Area of rectangle = length * width
+
+Broken Code
+length = int(input("Enter length: "))
+width = int(input("Enter width: "))
+area = length + width
+print(area)
+
+Correct Code
+length = int(input("Enter length: "))
+width = int(input("Enter width: "))
+area = length * width
+print(area)
