@@ -1,0 +1,31 @@
+# Module 1 - Basics
+## Level 3 - Challenge 2
+
+Problem
+Take two numbers from the user and print their product.
+
+Instructions
+1. Ask the user to enter two numbers.
+2. Convert both inputs to integers.
+3. Multiply the numbers.
+4. Print the result.
+
+Example Input
+4
+5
+
+Example Output
+20
+
+Hint
+Use the * operator to multiply numbers.
+
+Broken Code
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(a + b)
+
+Correct Code
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print(a * b)
