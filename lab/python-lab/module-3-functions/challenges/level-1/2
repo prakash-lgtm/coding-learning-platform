@@ -1,0 +1,33 @@
+# Module 3 - Conditions
+## Level 1 - Challenge 2
+
+Problem
+Check whether a number is positive or negative.
+
+Instructions
+1. Ask the user to enter a number.
+2. If the number is greater than 0, print "Positive".
+3. Otherwise print "Negative".
+
+Example Input
+5
+
+Example Output
+Positive
+
+Hint
+Use if statement to compare the number with 0.
+
+Broken Code
+num = int(input("Enter number: "))
+if num > 0
+print("Positive")
+else
+print("Negative")
+
+Correct Code
+num = int(input("Enter number: "))
+if num > 0:
+    print("Positive")
+else:
+    print("Negative")
