@@ -1,0 +1,27 @@
+# Module 5 - Strings
+## Level 5 - Challenge 1
+
+Problem
+Reverse a string.
+
+Instructions
+1. Create a string.
+2. Reverse the string.
+3. Print the reversed string.
+
+Example
+Python
+
+Example Output
+nohtyP
+
+Hint
+Use slicing [::-1].
+
+Broken Code
+text = "Python"
+print(text.reverse())
+
+Correct Code
+text = "Python"
+print(text[::-1])
