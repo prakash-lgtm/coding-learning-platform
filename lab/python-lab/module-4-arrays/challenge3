@@ -1,0 +1,27 @@
+# Module 4 - Arrays
+## Level 4 - Challenge 3
+
+Problem
+Count how many elements are in an array.
+
+Instructions
+1. Create an array.
+2. Count the number of elements.
+3. Print the count.
+
+Example Array
+[5, 8, 2, 1]
+
+Example Output
+4
+
+Hint
+Use len() function.
+
+Broken Code
+arr = [5,8,2,1]
+print(len arr)
+
+Correct Code
+arr = [5,8,2,1]
+print(len(arr))
