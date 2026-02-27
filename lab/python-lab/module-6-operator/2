@@ -1,0 +1,28 @@
+# Module 6 - Functions
+## Level 2 - Challenge 1
+
+Problem
+Create a function that prints your name.
+
+Instructions
+1. Define a function.
+2. Inside the function print your name.
+3. Call the function.
+
+Example Output
+Prakash
+
+Hint
+Functions can contain print statements.
+
+Broken Code
+def name():
+print("Prakash")
+
+name()
+
+Correct Code
+def name():
+    print("Prakash")
+
+name()
