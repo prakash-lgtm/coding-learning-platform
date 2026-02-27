@@ -1,0 +1,39 @@
+# Module 4 - Arrays
+## Level 3 - Challenge 1
+
+Problem
+Find the smallest number in an array.
+
+Instructions
+1. Create an array with numbers.
+2. Compare elements.
+3. Print the smallest number.
+
+Example Array
+[7, 3, 9, 1, 5]
+
+Example Output
+1
+
+Hint
+Store the first element as smallest and compare with others.
+
+Broken Code
+arr = [7,3,9,1,5]
+smallest = arr[0]
+
+for i in arr:
+if i < smallest:
+smallest = i
+
+print(smallest)
+
+Correct Code
+arr = [7,3,9,1,5]
+smallest = arr[0]
+
+for i in arr:
+    if i < smallest:
+        smallest = i
+
+print(smallest)
