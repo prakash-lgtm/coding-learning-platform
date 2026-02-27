@@ -1,0 +1,33 @@
+# Module 3 - Conditions
+## Level 2 - Challenge 3
+
+Problem
+Check whether a number is zero or not.
+
+Instructions
+1. Ask the user to enter a number.
+2. If the number is equal to 0 print "Zero".
+3. Otherwise print "Not Zero".
+
+Example Input
+0
+
+Example Output
+Zero
+
+Hint
+Use == operator to compare values.
+
+Broken Code
+num = int(input("Enter number: "))
+if num = 0:
+print("Zero")
+else:
+print("Not Zero")
+
+Correct Code
+num = int(input("Enter number: "))
+if num == 0:
+    print("Zero")
+else:
+    print("Not Zero")
