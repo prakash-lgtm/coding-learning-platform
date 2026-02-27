@@ -1,0 +1,31 @@
+# Module 6 - Functions
+## Level 4 - Challenge 1
+
+Problem
+Create a function that returns the square of a number.
+
+Instructions
+1. Define a function with one parameter.
+2. Multiply the number by itself.
+3. Return the result.
+
+Example Input
+4
+
+Example Output
+16
+
+Hint
+Use return statement.
+
+Broken Code
+def square(n):
+return n * n
+
+print(square(4))
+
+Correct Code
+def square(n):
+    return n * n
+
+print(square(4))
