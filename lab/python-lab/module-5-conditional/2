@@ -1,0 +1,27 @@
+# Module 5 - Strings
+## Level 2 - Challenge 1
+
+Problem
+Take a string input from the user and print it.
+
+Instructions
+1. Ask the user to enter a string.
+2. Store it in a variable.
+3. Print the string.
+
+Example Input
+Python
+
+Example Output
+Python
+
+Hint
+Use input() to read string.
+
+Broken Code
+name = input
+print(name)
+
+Correct Code
+name = input("Enter text: ")
+print(name)
