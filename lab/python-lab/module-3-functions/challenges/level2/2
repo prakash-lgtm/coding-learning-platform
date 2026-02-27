@@ -1,0 +1,33 @@
+# Module 3 - Conditions
+## Level 2 - Challenge 2
+
+Problem
+Check whether a number is greater than 100.
+
+Instructions
+1. Ask the user to enter a number.
+2. If number > 100 print "Greater than 100".
+3. Otherwise print "Less than or equal to 100".
+
+Example Input
+120
+
+Example Output
+Greater than 100
+
+Hint
+Use if statement to compare the number.
+
+Broken Code
+num = int(input("Enter number: "))
+if num > 100
+print("Greater than 100")
+else
+print("Less than or equal to 100")
+
+Correct Code
+num = int(input("Enter number: "))
+if num > 100:
+    print("Greater than 100")
+else:
+    print("Less than or equal to 100")
