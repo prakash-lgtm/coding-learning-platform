@@ -1,0 +1,28 @@
+# Module 6 - Functions
+## Level 1 - Challenge 1
+
+Problem
+Create a function that prints "Hello".
+
+Instructions
+1. Define a function.
+2. Inside the function print "Hello".
+3. Call the function.
+
+Example Output
+Hello
+
+Hint
+Use def to define a function.
+
+Broken Code
+def greet
+print("Hello")
+
+greet()
+
+Correct Code
+def greet():
+    print("Hello")
+
+greet()
