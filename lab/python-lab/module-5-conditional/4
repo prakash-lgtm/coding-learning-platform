@@ -1,0 +1,27 @@
+# Module 5 - Strings
+## Level 4 - Challenge 1
+
+Problem
+Convert a string to uppercase.
+
+Instructions
+1. Create a string.
+2. Convert it to uppercase.
+3. Print the result.
+
+Example
+python
+
+Example Output
+PYTHON
+
+Hint
+Use upper() function.
+
+Broken Code
+text = "python"
+print(text.upper)
+
+Correct Code
+text = "python"
+print(text.upper())
