@@ -1,0 +1,37 @@
+# Module 4 - Arrays
+## Level 4 - Challenge 2
+
+Problem
+Find the sum of all elements in an array.
+
+Instructions
+1. Create an array with numbers.
+2. Add all elements in the array.
+3. Print the total sum.
+
+Example Array
+[1, 2, 3, 4]
+
+Example Output
+10
+
+Hint
+Use a loop to add numbers.
+
+Broken Code
+arr = [1,2,3,4]
+sum = 0
+
+for i in arr:
+sum = sum + i
+
+print(sum)
+
+Correct Code
+arr = [1,2,3,4]
+sum = 0
+
+for i in arr:
+    sum = sum + i
+
+print(sum)
