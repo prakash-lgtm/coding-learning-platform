@@ -1,0 +1,26 @@
+# Module 2 - Loops
+## Level 5 - Challenge 1
+
+Problem
+Print star pattern.
+
+*
+**
+***
+****
+
+Instructions
+1. Use nested loops.
+2. Outer loop controls rows.
+3. Inner loop prints stars.
+
+Hint
+Use two loops.
+
+Broken Code
+for i in range(1,5):
+print("*" * i)
+
+Correct Code
+for i in range(1,5):
+    print("*" * i)
