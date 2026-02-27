@@ -1,0 +1,37 @@
+# Module 6 - Functions
+## Level 5 - Challenge 1
+
+Problem
+Create a function that checks whether a number is even or odd.
+
+Instructions
+1. Define a function with one parameter.
+2. Use condition to check number.
+3. Print "Even" or "Odd".
+
+Example Input
+6
+
+Example Output
+Even
+
+Hint
+Use % operator.
+
+Broken Code
+def check(n):
+if n % 2 == 0
+print("Even")
+else
+print("Odd")
+
+check(6)
+
+Correct Code
+def check(n):
+    if n % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+check(6)
