@@ -1,0 +1,33 @@
+# Module 4 - Arrays
+## Level 2 - Challenge 1
+
+Problem
+Print all elements of an array.
+
+Instructions
+1. Create an array with numbers.
+2. Use a loop to print each element.
+
+Example Array
+[2, 4, 6, 8]
+
+Example Output
+2
+4
+6
+8
+
+Hint
+Use a for loop to iterate through the array.
+
+Broken Code
+arr = [2,4,6,8]
+
+for i in arr
+print(i)
+
+Correct Code
+arr = [2,4,6,8]
+
+for i in arr:
+    print(i)
