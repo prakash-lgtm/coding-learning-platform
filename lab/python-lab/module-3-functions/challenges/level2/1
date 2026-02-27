@@ -1,0 +1,34 @@
+# Module 3 - Conditions
+## Level 2 - Challenge 1
+
+Problem
+Check whether a number is divisible by 5.
+
+Instructions
+1. Ask the user to enter a number.
+2. Check if the number is divisible by 5.
+3. If divisible print "Divisible by 5".
+4. Otherwise print "Not Divisible".
+
+Example Input
+10
+
+Example Output
+Divisible by 5
+
+Hint
+Use modulo operator %.
+
+Broken Code
+num = int(input("Enter number: "))
+if num % 5 == 0
+print("Divisible by 5")
+else
+print("Not Divisible")
+
+Correct Code
+num = int(input("Enter number: "))
+if num % 5 == 0:
+    print("Divisible by 5")
+else:
+    print("Not Divisible")
