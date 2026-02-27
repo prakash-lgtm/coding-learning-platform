@@ -1,0 +1,36 @@
+# Module 3 - Conditions
+## Level 1 - Challenge 3
+
+Problem
+Find the largest of two numbers.
+
+Instructions
+1. Ask the user to enter two numbers.
+2. Compare both numbers.
+3. Print the larger number.
+
+Example Input
+4
+7
+
+Example Output
+7
+
+Hint
+Use if statement to compare two numbers.
+
+Broken Code
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b
+print(a)
+else
+print(b)
+
+Correct Code
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print(a)
+else:
+    print(b)
