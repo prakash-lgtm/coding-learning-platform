@@ -1,0 +1,24 @@
+# Module 5 - Strings
+## Level 1 - Challenge 1
+
+Problem
+Print a string.
+
+Instructions
+1. Create a string variable.
+2. Store the text "Hello Python".
+3. Print the string.
+
+Example Output
+Hello Python
+
+Hint
+Use print() to display the string.
+
+Broken Code
+text = Hello Python
+print(text)
+
+Correct Code
+text = "Hello Python"
+print(text)
