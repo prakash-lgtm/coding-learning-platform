@@ -1,0 +1,35 @@
+# Module 3 - Conditions
+## Level 1 - Challenge 1
+
+Problem
+Check whether a number is even or odd.
+
+Instructions
+1. Ask the user to enter a number.
+2. Check if the number is divisible by 2.
+3. If divisible by 2, print "Even".
+4. Otherwise print "Odd".
+
+Example Input
+6
+
+Example Output
+Even
+
+Hint
+Use the modulo operator % to check remainder.
+If number % 2 == 0 then the number is even.
+
+Broken Code
+num = int(input("Enter number: "))
+if num % 2 = 0
+print("Even")
+else
+print("Odd")
+
+Correct Code
+num = int(input("Enter number: "))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
