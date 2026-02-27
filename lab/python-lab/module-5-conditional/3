@@ -1,0 +1,27 @@
+# Module 5 - Strings
+## Level 3 - Challenge 1
+
+Problem
+Find the length of a string.
+
+Instructions
+1. Create a string.
+2. Use a function to find its length.
+3. Print the result.
+
+Example
+"Python"
+
+Example Output
+6
+
+Hint
+Use len() function.
+
+Broken Code
+text = "Python"
+print(len text)
+
+Correct Code
+text = "Python"
+print(len(text))
